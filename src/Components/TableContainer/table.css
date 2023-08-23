@@ -1,0 +1,78 @@
+.table-root {
+    width: 100%;
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-header {
+    display: table-header-group;
+}
+.table-header-row {
+    color: inherit;
+    display: table-row;
+    outline: 0;
+    vertical-align: middle;
+}
+.table-header-cell {
+    color: #2E2F32;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+    display: table-cell;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #F1F1F2;
+    text-align: left;
+}
+.table-body {
+    display: table-row-group;
+}
+.table-body-row {
+    color: inherit;
+    display: table-row;
+    outline: 0;
+    vertical-align: middle;
+}
+.table-body-row:hover {
+    background-color: #E6F1FC;
+}
+.table-body-cell {
+    color: #2E2F32;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px;
+    border-bottom: 1px solid #F1F1F2;
+    text-align: left;
+}
+.tableFooter {
+    padding: 8px 0px;
+    width: 100%;
+    font-weight: 500;
+    text-align: right;
+    font-size: 16px;
+    color: #2E2F32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.button {
+    border: none;
+    padding: 7px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.activeButton {
+    color: white;
+    background: #185adb;
+}
+  
+.inactiveButton {
+    color: #2c3e50;
+    background: #f9f9f9;
+    border: 1px solid #F1F1F2;
+}
